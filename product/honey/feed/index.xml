@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Testy Honey	</title>
+	<atom:link href="https://brynes.github.io/chepchikoni/product/honey/feed/" rel="self" type="application/rss+xml" />
+	<link>https://brynes.github.io/chepchikoni/product/honey/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Wed, 24 Jul 2019 20:58:57 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+			<item>
+				<title>
+				By: Ricardo Deo				</title>
+				<link>https://brynes.github.io/chepchikoni/product/honey/#comment-38</link>
+		<dc:creator><![CDATA[Ricardo Deo]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2019 10:34:00 +0000</pubDate>
+		<guid isPermaLink="false">https://flbaisha.com/wp/ronby/restaurant-demo/?post_type=product&#038;p=225#comment-38</guid>
+					<description><![CDATA[Lorem Ipsum vrar pangemu festinl sekonne tasr]]></description>
+		<content:encoded><![CDATA[<p>Lorem Ipsum vrar pangemu festinl sekonne tasr</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: reader87				</title>
+				<link>https://brynes.github.io/chepchikoni/product/honey/#comment-37</link>
+		<dc:creator><![CDATA[reader87]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2019 10:32:46 +0000</pubDate>
+		<guid isPermaLink="false">https://flbaisha.com/wp/ronby/restaurant-demo/?post_type=product&#038;p=225#comment-37</guid>
+					<description><![CDATA[Very delicious food!]]></description>
+		<content:encoded><![CDATA[<p>Very delicious food!</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

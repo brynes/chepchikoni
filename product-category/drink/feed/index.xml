@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>DRINK &#8211; ChepChikoni</title>
+	<atom:link href="https://brynes.github.io/chepchikoni/product-category/drink/feed/" rel="self" type="application/rss+xml" />
+	<link>https://brynes.github.io/chepchikoni</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Wed, 24 Jul 2019 20:58:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Sir Pizza</title>
+		<link>https://brynes.github.io/chepchikoni/product/sir-pizza/</link>
+				<comments>https://brynes.github.io/chepchikoni/product/sir-pizza/#comments</comments>
+				<pubDate>Mon, 18 Mar 2019 07:48:16 +0000</pubDate>
+		<dc:creator><![CDATA[chep]]></dc:creator>
+		
+		<guid isPermaLink="false">https://flbaisha.com/wp/ronby/restaurant-demo/?post_type=product&#038;p=190</guid>
+				<description><![CDATA[Lorem ipsum dolor sit amet, consectetur ili adipiscing elit. Donec nec eros eget nsl ms fringilla pellentesque et non er Maecenas nibh dolor, malesua da et bibendum a, sagittis accumsan amet, consectetur adipiscing elit. Inte gut ultricies nibh dolor, malesuada et bibendum tristiq eget…]]></description>
+								<content:encoded><![CDATA[<div class="product-attributes">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor.Ipsum metus feugiat sem ,quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagitti vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit Lorem ipsum dolor sit ame consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor.Ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus</p>
+<p>eget sagittis vulputate, sapien libero hen drerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi.</p>
+<p>&nbsp;</p>
+<h3 class="box-title">Additional Information</h3>
+<ul class="list-unstyled">
+<li class="d-flex"><span class="lb">Weight:</span>2 kg</li>
+<li class="d-flex"><span class="lb">Dimensions:</span>24 x 24 x 5 cm</li>
+<li class="d-flex"><span class="lb">Size:</span>Large, Smal, Medium</li>
+</ul>
+</div>
+<p><iframe width="825" height="619" src="https://www.youtube.com/embed/MflT0I7ZPCs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor.Ipsum metus feugiat sem ,quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagitti vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit Lorem ipsum dolor sit ame consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor.Ipsum metus feugiat sem</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://brynes.github.io/chepchikoni/product/sir-pizza/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>Special Dish</title>
+		<link>https://brynes.github.io/chepchikoni/product/special-dish/</link>
+				<comments>https://brynes.github.io/chepchikoni/product/special-dish/#comments</comments>
+				<pubDate>Mon, 18 Mar 2019 07:44:29 +0000</pubDate>
+		<dc:creator><![CDATA[chep]]></dc:creator>
+		
+		<guid isPermaLink="false">https://flbaisha.com/wp/ronby/restaurant-demo/?post_type=product&#038;p=185</guid>
+				<description><![CDATA[Lorem ipsum dolor sit amet, consectetur ili adipiscing elit. Donec nec eros eget nsl ms fringilla pellentesque et non er Maecenas nibh dolor, malesua da et bibendum a, sagittis accumsan amet, consectetur adipiscing elit. Inte gut ultricies nibh dolor, malesuada et bibendum tristiq eget…]]></description>
+								<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor.Ipsum metus feugiat sem ,quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagitti vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit Lorem ipsum dolor sit ame consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor.Ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus</p>
+<p>eget sagittis vulputate, sapien libero hen drerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://brynes.github.io/chepchikoni/product/special-dish/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+	</channel>
+</rss>

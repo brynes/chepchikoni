@@ -312,7 +312,7 @@
  width: 45px;
  padding: 5px;
  position: relative;
- background: url('../img/left_arr.png') no-repeat center;
+ background: url('https://brynes.github.io/chepchikoni/wp-content/plugins/the_ronby_extensions/modules/quick-view/img/left_arr.png') no-repeat center;
  background-size: 25px;
 }
  
@@ -363,7 +363,7 @@
  width: 45px;
  padding: 5px;
  position: relative;
- background: url('../img/right_arr.png') no-repeat center;
+ background: url('https://brynes.github.io/chepchikoni/wp-content/plugins/the_ronby_extensions/modules/quick-view/img/right_arr.png') no-repeat center;
  background-size: 25px;
 }
  
@@ -523,7 +523,7 @@ float: left;
   top: 0;
   right: 0;
   position: absolute;
-  background:url('../img/loader.gif') no-repeat center center; 
+  background:url('https://brynes.github.io/chepchikoni/wp-content/plugins/the_ronby_extensions/modules/quick-view/img/loader.gif') no-repeat center center; 
   background-size: 23px 23px;
 }
 
