@@ -1,0 +1,66 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 26/10/2018 09:37
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-home:before { content: "\f100"; }
+.flaticon-drawing:before { content: "\f101"; }
+.flaticon-plug:before { content: "\f102"; }
+.flaticon-clipboard-with-pencil:before { content: "\f103"; }
+.flaticon-tools:before { content: "\f104"; }
+.flaticon-line-chart:before { content: "\f105"; }
+.flaticon-pie-chart:before { content: "\f106"; }
+.flaticon-customer-service:before { content: "\f107"; }
+.flaticon-medal:before { content: "\f108"; }
+.flaticon-dollar-analysis-bars-chart:before { content: "\f109"; }
+.flaticon-phone-call:before { content: "\f10a"; }
+.flaticon-clock:before { content: "\f10b"; }
+.flaticon-map-pin-silhouette:before { content: "\f10c"; }
+.flaticon-message:before { content: "\f10d"; }
+.flaticon-calculator:before { content: "\f10e"; }
+.flaticon-parking:before { content: "\f10f"; }
+.flaticon-stationary-bike:before { content: "\f110"; }
+.flaticon-cup:before { content: "\f111"; }
+.flaticon-heartbeat:before { content: "\f112"; }
+.flaticon-medical-kit:before { content: "\f113"; }
+.flaticon-patient:before { content: "\f114"; }
+.flaticon-savings:before { content: "\f115"; }
+.flaticon-box:before { content: "\f116"; }
+.flaticon-support:before { content: "\f117"; }
+.flaticon-reward:before { content: "\f118"; }
+.flaticon-hamburger-meal:before { content: "\f119"; }
+.flaticon-pizza:before { content: "\f11a"; }
+.flaticon-cocktail:before { content: "\f11b"; }
+.flaticon-pasta:before { content: "\f11c"; }
+.flaticon-vegetables:before { content: "\f11d"; }
+.flaticon-user:before { content: "\f11e"; }
+.flaticon-chef:before { content: "\f11f"; }
+.flaticon-digger:before { content: "\f120"; }
+.flaticon-construction-worker:before { content: "\f121"; }
+.flaticon-settings:before { content: "\f122"; }

@@ -1,0 +1,74 @@
+/*Page Header 1*/
+.fitness-header-used .page-header-1 .inner-content{
+	padding: 230px 0 80px;
+}
+/*Page Header 3*/
+.construction-header-used .page-header-3 .overlay,
+.fashion-header-used .page-header-3 .overlay,
+.restaurant-header-used .page-header-3 .overlay{
+    padding-top: 150px;
+}
+.fashion-header-used .page-header-3.clac-slider .overlay,
+.medical-header-used .page-header-3 .overlay{
+	padding-top: 180px;
+}
+.restaurant-header-used .page-header-3.clac-slider .overlay {
+    padding-top: 140px;
+    padding-bottom: 60px;
+}
+.restaurant-header-used .page-header-3.clac-slider .overlay .page-header-3 .overlay{
+    padding-top:80px;
+}
+.business-header-used .flex-shrink-1 .page-header-3 .overlay{
+    padding-top: 100px;
+}
+.business-header-used .page-header-3.clac-slider .overlay{
+    padding-top: 70px;
+}
+
+/*Page Header 2*/
+.restaurant-header-used .page-header-2 .page-header-inner {
+    padding-top: 155px;
+}
+.construction-header-used .page-header-2 .page-header-inner,
+.fashion-header-used .page-header-2 .page-header-inner {
+    padding: 150px 0 80px;
+}
+/*Page Header 5*/
+.fitness-header-used .page-header-5 .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 80px;
+}
+.medical-header-used .page-header-5 .inner-content {
+    padding: 100px 0 20px;
+}
+
+/*Page Header 6*/
+.restaurant-header-used .page-header-6{
+    padding: 160px 0 80px;
+}
+.medical-header-used .page-header-6{
+    padding: 160px 0 90px;
+}
+.fashion-header-used .page-header-6{
+	padding: 140px 0 90px;
+}
+.fitness-header-used .page-header-6 {
+    padding: 0;
+}
+.fitness-header-used .page-header-6 .overlay {
+    padding-top: 210px;
+    padding-bottom: 70px;
+}
+.construction-header-used .page-header-6 {
+    padding: 140px 0 100px;
+}
+.business-header-used .page-header-6 {
+    padding: 110px 0 100px;
+}
+
+@media (min-width: 992px) {
+.fitness-header-used .tp-caption{
+	margin-top: 50px !important;
+}
+}

@@ -1,0 +1,5 @@
+.ronby_recent_post3 ul { list-style: outside none none; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+.ronby_recent_post3 ul li { overflow: hidden; margin: 0 0 1.5em; }
+.ronby_recent_post3 ul li:last-child { margin: 0; }
+.ronby_recent_post3 ul li img { display: inline; float: left; margin: .3em .75em .75em 0; }
+#ronby-ronby-recent-post3-1 img { max-width: 75px; width: 100%; height: auto; }

@@ -1,0 +1,138 @@
+
+---Downloaded files---
+The import files for: Restaurant Demo were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = http://localhost/chepchikoni
+Data file = D:\wamp64\www\chepchikoni/wp-content/themes/ronby/framework/demo-content/demo2/demo-content.xml
+Widget file = D:\wamp64\www\chepchikoni/wp-content/themes/ronby/framework/demo-content/demo2/widgets.wie
+Customizer file = D:\wamp64\www\chepchikoni/wp-content/themes/ronby/framework/demo-content/demo2/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "pic2.jpg" (Media)
+[ERROR] Failed to import "h2.jpg" (Media)
+[ERROR] Failed to import "pic3.jpg" (Media)
+[ERROR] Failed to import "h1.jpg" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "pic2.jpg" (Media)
+[ERROR] Failed to import "h2.jpg" (Media)
+[ERROR] Failed to import "pic3.jpg" (Media)
+[ERROR] Failed to import "h1.jpg" (Media)
+[ERROR] Failed to import "housebg1.jpg" (Media)
+[ERROR] Failed to import "housebg4.jpg" (Media)
+[ERROR] Failed to import "pic7-1.jpg" (Media)
+[ERROR] Failed to import "pic4-1.jpg" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "pic2.jpg" (Media)
+[ERROR] Failed to import "h2.jpg" (Media)
+[ERROR] Failed to import "pic3.jpg" (Media)
+[ERROR] Failed to import "h1.jpg" (Media)
+[ERROR] Failed to import "housebg1.jpg" (Media)
+[ERROR] Failed to import "housebg4.jpg" (Media)
+[ERROR] Failed to import "pic7-1.jpg" (Media)
+[ERROR] Failed to import "pic4-1.jpg" (Media)
+[ERROR] Failed to import "housebg3.jpg" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "pic2.jpg" (Media)
+[ERROR] Failed to import "h2.jpg" (Media)
+[ERROR] Failed to import "pic3.jpg" (Media)
+[ERROR] Failed to import "h1.jpg" (Media)
+[ERROR] Failed to import "housebg1.jpg" (Media)
+[ERROR] Failed to import "housebg4.jpg" (Media)
+[ERROR] Failed to import "pic7-1.jpg" (Media)
+[ERROR] Failed to import "pic4-1.jpg" (Media)
+[ERROR] Failed to import "housebg3.jpg" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "pic2.jpg" (Media)
+[ERROR] Failed to import "h2.jpg" (Media)
+[ERROR] Failed to import "pic3.jpg" (Media)
+[ERROR] Failed to import "h1.jpg" (Media)
+[ERROR] Failed to import "housebg1.jpg" (Media)
+[ERROR] Failed to import "housebg4.jpg" (Media)
+[ERROR] Failed to import "pic7-1.jpg" (Media)
+[ERROR] Failed to import "pic4-1.jpg" (Media)
+[ERROR] Failed to import "housebg3.jpg" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "pic2.jpg" (Media)
+[ERROR] Failed to import "h2.jpg" (Media)
+[ERROR] Failed to import "pic3.jpg" (Media)
+[ERROR] Failed to import "h1.jpg" (Media)
+[ERROR] Failed to import "housebg1.jpg" (Media)
+[ERROR] Failed to import "housebg4.jpg" (Media)
+[ERROR] Failed to import "pic7-1.jpg" (Media)
+[ERROR] Failed to import "pic4-1.jpg" (Media)
+[ERROR] Failed to import "housebg3.jpg" (Media)
+
+
+---Importing widgets---
+Blog Sidebar Widgets : 
+
+Search - No Title - Widget already exists
+Ronby Category List Widget - No Title - Imported
+Ronby Recent Post List Three - Recent Post - Imported
+
+Footer 1st Column Widgets : 
+
+Ronby About us one widget - About Information - Imported
+
+Footer 2nd Column Widgets : 
+
+Ronby Recent Post List One - Recent Posts - Imported
+
+Footer 3rd Column Widgets : 
+
+Ronby Instagram Widget - Instagram Photos - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdc/after_import---
+

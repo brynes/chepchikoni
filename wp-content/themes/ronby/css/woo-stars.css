@@ -1,0 +1,60 @@
+/*Woo Stars*/
+@font-face{font-family:star;src:url(../fonts/star.eot);src:url(../fonts/star.eot?#iefix) format("embedded-opentype"),url(../fonts/star.woff) format("woff"),url(../fonts/star.ttf) format("truetype"),url(../fonts/star.svg#star) format("svg");font-weight:400;font-style:normal}@font-face{font-family:WooCommerce;src:url(../fonts/WooCommerce.eot);src:url(../fonts/WooCommerce.eot?#iefix) format("embedded-opentype"),url(../fonts/WooCommerce.woff) format("woff"),url(../fonts/WooCommerce.ttf) format("truetype"),url(../fonts/WooCommerce.svg#WooCommerce) format("svg");font-weight:400;font-style:normal}
+
+.fontstar li.fal.fa-star {
+    position: relative;
+    height: 1em;
+    width: 1.1em;
+    margin-left: 2.3px;
+    font-size: 1.1em;
+    text-indent: -999em;
+    display: inline-block;
+    text-decoration: none;
+}
+.fontstar li.fal.fa-star::before {
+    display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    font-family: WooCommerce !important;
+    content: '\e021' !important;
+    text-indent: 0;
+}
+
+.stars-rating span.fal.fa-star {
+    position: relative;
+    height: 1em;
+    width: 1em;
+    font-size: 1em;
+    text-indent: -999em;
+    display: inline-block;
+    text-decoration: none;
+}
+.stars-rating span.fal.fa-star::before {
+    display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+    width: 1em;
+    height: 1em;
+    line-height: 1.3;
+    font-family: WooCommerce !important;
+    content: '\e021' !important;
+    text-indent: 0;
+}
+.type-product .stars-rating span.fal.fa-star::before {
+    top: 1.7px;
+	line-height: 1;
+}
+.layout-5 .type-product .stars-rating span.fal.fa-star::before,
+.layout-6 .type-product .stars-rating span.fal.fa-star::before {
+    top: 1.7px;
+	line-height: 1;
+}
+.layout-3 .type-product .stars-rating span.fal.fa-star::before {
+    top: 2px;
+    line-height: 1;
+}

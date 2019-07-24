@@ -1,0 +1,1664 @@
+/*
+Theme Name: Ronby
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+*/
+
+
+/* ------------------------ Start RTL------------------------ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.page-header-1 .page-header-title {
+	text-align: right;
+}
+
+.header-3.fitness-header-3 .header-infomation ul li span {
+	float: right;
+}
+
+.header-3 .header-infomation li:not(:first-child)::before {
+	display: none
+}
+
+.header-3 .header-infomation li:last-child span::after {
+	content: ':';
+	color: #adadad;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.header-3 .header-infomation li:first-child span::after {
+	content: '';
+	color: #adadad;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.header-3 .header-infomation li:first-child::after {
+	content: '|';
+	color: #adadad;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.header-3 .header-infomation li {
+	margin-left: 5px;
+}
+
+.header-3 .main-menu .menu>li {
+	float: right;
+	position: relative;
+}
+
+.page-header-1 .page-header-breadcrumb span {
+	float: left;
+}
+
+.clac-slider .page-header-3 .inner-content h2,
+.clac-slider .page-header-3 .inner-content .page-header-title,
+.clac-slider .page-header-3 .inner-content .page-header-breadcrumb {
+	text-align: right;
+}
+
+.clac-slider .page-header-3 .inner-content {
+	border-left: none;
+	border-right: 6px solid white;
+	padding-right: 27px;
+}
+
+.clac-slider .box-content .form-label {
+	text-align: right;
+	width: 100%;
+}
+
+.clac-slider .custom-radio.mr-4 {
+	margin-right: 0px !important;
+}
+
+.clac-slider .form-group.mt-3 {
+	text-align: right
+}
+
+.custom-checkbox .checkmark,
+.custom-radio .checkmark {
+	position: relative;
+	margin-right: 12px;
+	margin-left: 5px;
+}
+
+@media (min-width: 992px) {
+	.section-join-us .section-content {
+		padding-left: 440px;
+		padding-right: 100px;
+	}
+	.section-join-us .section-content {
+		background-position-x: left !important;
+	}
+}
+
+ul.section-list-item li:last-child {
+	position: absolute;
+	top: -51px;
+	left: 10px;
+	right: inherit;
+}
+
+@media (min-width: 1199px) {
+	.bordered-bottom-uls {
+		width: 65%;
+		border-bottom: 8px solid;
+		float: left;
+	}
+}
+
+.section-join-us .section-title {
+	padding-left: 50px;
+	padding-right: 0px;
+	text-align: right;
+}
+
+section.section-join-us.bdron .section-text {
+	text-align: right;
+}
+
+.section-pricing-table .plan-price,
+.section-pricing-table .plan-name {
+	text-align: right;
+}
+
+.plan-item .item-header .card-image {
+	position: absolute;
+	left: 20px;
+	right: inherit;
+}
+
+.section-pricing-table .content-overlay {
+	text-align: right;
+}
+
+.plan-item .item-content ul li::before {
+	display: none;
+}
+
+.plan-item .item-content ul li::after {
+	content: "\f053";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 12px;
+	color: #f14242;
+	margin-left: 9px;
+	float: right;
+}
+
+.section-pricing-table a .fa-angle-right {
+	display: none;
+}
+
+.fitness-section-classes .class-schedule .color-primary {
+	float: right;
+	margin-right: 15px;
+}
+
+.detailed-team-member-item-2 .member-role {
+	font-family: Poppins;
+	font-size: 13px;
+	float: right;
+}
+
+.detailed-team-member-item-2 .member-name {
+	float: right;
+}
+
+.detailed-team-member-item-2 .member-quote {
+	text-align: right;
+}
+
+.team-item-2 .text-left {
+	text-align: center !important;
+}
+
+.ronby-fitness-blog-section .item-content {
+	text-align: right
+}
+
+.ronby-fitness-blog-section .row {
+	direction: ltr;
+}
+
+.class-detail .class-detail-header .class-infomation .class-description {
+	font-size: 13px;
+	font-style: italic;
+	text-align: right
+}
+
+.class-detail .class-title,
+.class-schedule {
+	text-align: right
+}
+
+.class-detail .class-schedule .color-primary {
+	float: right
+}
+
+.class-detail .class-price {
+	margin-left: 10px;
+}
+
+.class-detail .class-detail-content {
+	text-align: right
+}
+
+.list-style-4 li::before {
+	content: "\f0d9";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	margin-left: 12px;
+	float: right
+}
+
+.fitness-contact-info-box .box-title {
+	text-align: right
+}
+
+.fitness-contact-info-box .contact-infomation-box-5 .col-lg-7 {
+	text-align: right
+}
+
+.contact-info-list span:last-child {
+	float: left
+}
+
+.contact-infomation-box-5 .contact-info-list {
+	padding-right: 19px;
+	border-right: 2px solid #808080;
+}
+
+.contact-infomation-box-5 .m-30-0-0 span {
+	float: left
+}
+
+.team-details-style .team-detail-2 .member-infomation .member-role {
+	font-size: 13px;
+	margin-right: 25px;
+	font-weight: 500;
+}
+
+.team-details-style .team-detail-2 .col-md-8.col-xl-9 {
+	text-align: right
+}
+
+.team-detail-2 .right-column {
+	padding-right: 45px;
+}
+
+.right-column .member-infomation ul li .color-primary {
+	float: right
+}
+
+.right-column .member-infomation ul li .color-primary.mr-1 {
+	margin-left: .25rem!important;
+}
+
+.fitness-how-to-find-us .row .find-us-info {
+	text-align: right;
+}
+
+.fitness-how-to-find-us .find-us-info.pl-90 {
+	padding-right: 60px;
+}
+
+.component.nearby-gyms .gym-btn {
+	text-align: right;
+}
+
+.component.nearby-gyms .gym-container {
+	text-align: right;
+}
+
+.nearby-gyms .gym-panel .gym-container>div h3 {
+	margin-left: 7.3rem;
+	margin-right: inherit;
+}
+
+.nearby-gyms .gym-panel .gym-container>div h3 span {
+	left: 2rem;
+	right: inherit;
+}
+
+.nearby-gyms .gym-btn h3 {
+	padding-right: 25px;
+}
+
+.fitness-cta {
+	text-align: right;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.fitness-cta-p {
+	text-align: right;
+	margin-left: 30px;
+	margin-right: inherit
+}
+
+@media (max-width: 575px) {
+	.section-join-us .image-box-1 img {
+		top: 0px !important;
+	}
+}
+
+.medical-appointment-form-two {
+	text-align: right;
+}
+
+.section-join-us {
+	text-align: right;
+}
+
+.fitness-cta-two .col-md-8 {
+	text-align: right;
+}
+
+.fitness-cta-two .offset-md-3 {
+	margin-right: 25%;
+}
+
+.widget {
+	text-align: right;
+}
+
+.widget-post-item-1 .thumbnail {
+	margin-left: 22px !important;
+	margin-right: 0px !important;
+}
+
+.widget-post-item-2 .avatar {
+	margin-left: 19px;
+	margin-right: inherit;
+}
+
+.widget-menu-1 li a::before {
+	display: none;
+}
+
+.widget-menu-1 li a::after {
+	content: "\f053";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 10px;
+	margin-left: 10px;
+}
+
+.widget-menu-3 ul li a::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: "\f053";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-left: 1px solid;
+	text-align: center;
+	font-size: 11px;
+}
+
+#footer .subscription-widget-one .search-form button {
+	right: 79%;
+	left: inherit;
+}
+
+.search-form .form-group-button {
+	border-radius: 8px 0px 0px 8px !important;
+}
+
+.subscription-widget-one .search-form .form-group-input {
+	border-radius: 15px 50px 50px 15px !important;
+}
+
+.search-form .form-group-input {
+	padding-right: 25px;
+}
+
+.flex-auto-thumbnail {
+	margin-left: 21px;
+	margin-right: inherit;
+}
+
+footer .widget .submit-button {
+	left: 0;
+	right: inherit;
+}
+
+.widget_ronby_subscription_two .fa-angle-right::before {
+	content: "\f053";
+}
+
+.widget_ronby_subscription_two .widget-subscribe .email-input {
+	padding-right: 25px;
+}
+
+.section-header-style-4 .section-sub-title::after {
+	content: '';
+	display: block;
+	width: 112px;
+	height: 4px;
+	background: #b8b8b8;
+	position: absolute;
+	top: 7px;
+	right: 100%;
+	margin-right: 20px;
+}
+
+.construction-heading-section {
+	text-align: right;
+}
+
+.article-with-overlay-5 {
+	text-align: right
+}
+
+.article-with-overlay-5 .fa-angle-right::before {
+	content: "\f053";
+}
+
+.section-we-provide-services {
+	text-align: right;
+}
+
+.list-style-3 li::before {
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin-left: 15px;
+	margin-right: inherit;
+}
+
+.blog-post-item-3 {
+	text-align: right;
+}
+
+.blog-post-item-3 .permalink::after {
+	content: '\f053';
+	margin-right: 20px;
+}
+
+.construction-our-projects .list-unstyled {
+	text-align: right;
+}
+
+.construction-faq {
+	text-align: right
+}
+
+.question-item .item-title::before {
+	display: none;
+}
+
+.question-item .item-title::after {
+	content: 'Q';
+	color: #ffb703;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+	padding-right: 12px;
+	margin-right: 12px;
+	border-right: 1px solid #afafaf;
+}
+
+.construction-contact-form {
+	text-align: right;
+}
+
+.business-blog-section-element {
+	text-align: right
+}
+
+.construction-projec-details-sec {
+	text-align: right
+}
+
+.construction-projec-details-sec .lb {
+	margin-left: 10px;
+	float: right;
+	margin-right: inherit;
+}
+
+.construction-projec-details-sec .project-detail-header .post-fields ul {
+	padding-left: 80px;
+	padding-right: inherit;
+}
+
+.medical-cta {
+	text-align: right;
+}
+
+.service-detail-1 {
+	text-align: right;
+}
+
+@media (min-width: 576px) {
+	.service-detail-1 .service-detail-header .title-box {
+		right: 70px;
+		left: inherit;
+	}
+}
+
+.construction-service-detail-2 {
+	text-align: right;
+}
+
+.social-share-sec .list-unstyled {
+	direction: ltr;
+}
+
+.team-detail-1 {
+	text-align: right;
+}
+
+#business_registration_form {
+	text-align: right
+}
+
+#business_registration_form span.mr-10 {
+	margin-right: 0px;
+	margin-left: 10px !important;
+}
+
+.section-header-style-3 {
+	text-align: right;
+}
+
+.section-header-style-3 .section-sub-title::before {
+	display: none;
+}
+
+.section-header-style-3 .section-sub-title::after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 45px;
+	border-top: 3px solid;
+	margin-right: 10px;
+	background: white;
+}
+
+.business_our_service_section {
+	text-align: right;
+}
+
+.business_our_service_section .article-box-with-icon-2 {
+	direction: ltr;
+}
+
+.business_our_service_section .article-box-with-icon-2 .fa-chevron-right::before {
+	content: "\f053";
+}
+
+.event-countdown-1 .col-lg-9 {
+	direction: ltr;
+	text-align: right;
+}
+
+.section-bottom-title {
+	direction: rtl;
+}
+
+.event-countdown-1 .section-header .section-bottom-title i {
+	margin-left: 8px;
+	margin-right: inherit;
+}
+
+.business_company_ranking_progress .col-lg-5 {
+	text-align: right;
+}
+
+.list-style-2 li .custom-dot {
+	margin-left: 10px;
+	margin-right: inherit;
+}
+
+.business-feature-box-sec {
+	text-align: right;
+}
+
+.article-with-overlay-3 {
+	text-align: right;
+}
+
+.header-3.fitness-header-3 .header-nav .row.align-items-center .mr-auto {
+	margin-left: auto !important;
+	margin-right: inherit !important;
+}
+
+.hidden-search-form .search-form .form-group-input {
+	border-radius: 0px 8px 8px 0px !important;
+}
+
+.business-testimonial-sec .owl-nav {
+	direction: ltr;
+}
+
+.project-detail-1 {
+	text-align: right;
+}
+
+.project-detail-1 ul li .lb {
+	margin-left: 1rem;
+	margin-right: inherit;
+	float: right;
+}
+
+.list-style-1 li::before {
+	content: "\f053";
+	font-family: "Font Awesome 5 Free";
+	margin-left: 8px;
+	float: right;
+}
+
+.user-quote-1 .quote-thumb {
+	margin-left: 45px;
+	margin-right: inherit;
+}
+
+.user-quote-1 .item-social span:first-child {
+	margin-left: 10px;
+}
+
+.business-projects-tab {
+	text-align: right;
+}
+
+.infomation-box-2 {
+	text-align: right;
+}
+
+.infomation-box-2 ul li span.mr-2 {
+	float: right;
+	margin-left: .5rem !important;
+	margin-right: inherit;
+}
+
+.text-content-area,
+.social-2,
+.user-quote-1 {
+	text-align: right;
+}
+
+.user-quote-1 .item-header .name {
+	float: right;
+}
+
+.user-quote-1 .item-header .description {
+	margin-right: 1rem;
+	margin-left: inherit;
+}
+
+.ronby-doctors-list .item-title .color-secondary {
+	float: right;
+}
+
+.medical-service-box-sec .row {
+	direction: ltr;
+}
+
+.medical-service-box-sec .service-item-2 {
+	text-align: right;
+}
+
+.medical_trifold_flyer {
+	text-align: right;
+}
+
+.post-carousel-3 {
+	direction: ltr;
+}
+
+.post-carousel-3 .slider-title {
+	text-align: right;
+}
+
+.post-carousel-3 .owl-nav {
+	text-align: left;
+	right: 0;
+}
+
+.post-carousel-2 {
+	direction: ltr;
+}
+
+.team-item-3 {
+	text-align: right;
+}
+
+.post-carousel-2 .item-title span.color-secondary {
+	float: right;
+}
+
+.post-carousel-2 .item-phone-number span.color-secondary {
+	float: right;
+	margin-left: 5px;
+}
+
+.medical-image-gallery .fa-caret-right::before {
+	content: "\f0d9";
+}
+
+.medical-team-details-sec {
+	text-align: right;
+}
+
+.medical-team-details-sec .list-unstyled {
+	direction: ltr;
+}
+
+.medical-team-details-sec .list-unstyled .color-secondary.mr-2 {
+	float: right;
+	margin-left: .5rem !important;
+	margin-right: inherit;
+}
+
+.testimonial-slider-3 {
+	direction: ltr;
+}
+
+.testimonial-slider-3 .author-name {
+	float: right;
+}
+
+.testimonial-slider-3 .owl-nav {
+	left: 0;
+	right: inherit;
+}
+
+.service-detail-2 {
+	text-align: right;
+}
+
+.department-detail {
+	text-align: right;
+}
+
+.department-detail .detail-header .icon {
+	right: 24px;
+	left: inherit;
+}
+
+.doctor-profile-sec {
+	text-align: right;
+}
+
+.doctor-profile-sec .text-highlighted {
+	float: right;
+}
+
+.doctor-profile-sec .item-phone-number .text-highlighted {
+	float: right;
+}
+
+.infomation-box-1 {
+	text-align: right;
+}
+
+#medical-contact-form {
+	text-align: right;
+}
+
+#medical-contact-form .mr-10 {
+	margin-left: 10px !important;
+	float: right;
+}
+
+.contact-us {
+	text-align: right;
+}
+
+.section-feature-products {
+	text-align: right;
+}
+
+.section-poppular-brands {
+	text-align: right;
+}
+
+.section-brands-carousel-2,
+.testimonial-slider-4,
+.project-detail-2,
+.tesimonial-slider-1 {
+	direction: ltr;
+}
+
+.testimonial-footer-inner {
+	text-align: right;
+}
+
+.list-style-3 {
+	direction: rtl;
+}
+
+#construction_contact_form .col-lg-12 .mr-10 {
+	float: right;
+	margin-left: 10px !important;
+	margin-right: inherit;
+}
+
+#construction_contact_form input[type=radio] {
+	margin-top: 5px;
+}
+
+#construction_contact_form input[type=checkbox] {
+	margin-top: 5px;
+}
+
+.header-1 .header-nav .mr-auto {
+	margin-left: auto !important;
+	margin-right: inherit !important;
+}
+
+.header-1 .main-menu .menu>li {
+	float: right;
+}
+
+.header-1 .list-contact-infomations a {
+	border-right: 1px solid #bbb;
+	border-left: inherit;
+}
+
+.header-1 .list-contact-infomations li:first-child a {
+	border-right: none;
+	padding-right: 0;
+	padding-left: 25px;
+}
+
+.header-1 .nav-search-button {
+	padding-right: 18px;
+	padding-left: 0;
+	border-right: 1px solid #adadad;
+	border-left: none;
+}
+
+.header-2 .mr-auto {
+	margin-left: auto !important;
+	margin-right: inherit !important;
+}
+
+.social-3 li i {
+	margin-left: 5px;
+	margin-right: inherit;
+}
+
+@media (min-width: 768px) {
+	.social-3 li:not(:first-child) {
+		padding-right: 25px;
+		padding-left: inherit;
+		border-right: 1px solid #444;
+		border-left: none;
+	}
+}
+
+.social-3 li:not(:first-child) {
+	margin-right: 25px;
+	margin-left: inherit;
+	line-height: 16px;
+}
+
+.header-2 .contact-infomation .icon {
+	margin-left: 18px;
+	margin-right: inherit;
+}
+
+.header-2 .main-menu .menu>li {
+	float: right;
+}
+
+.header-4 .mr-auto {
+	margin-left: auto !important;
+	margin-right: inherit !important;
+}
+
+.header-4 ul li span.color-secondary {
+	float: right;
+	margin-left: 5px;
+}
+
+.header-4 .header-infomation ul li:not(:first-child) {
+	padding-right: 27px;
+	margin-right: 55px;
+	border-right: 1px solid #adadad;
+	padding-left: inherit;
+	margin-left: inherit;
+	border-left: none;
+}
+
+.header-4 .main-menu .menu>li {
+	float: right;
+}
+
+.header-5 .header-nav-icons li:not(:first-child) {
+	border-left: none;
+	border-right: 1px solid;
+}
+
+.header-6 .col-lg-3 {
+	text-align: right;
+}
+
+.header-6 .col-lg-8 .text-right {
+	text-align: left !important;
+}
+
+.header-6 .cart-box.sub-menu {
+	left: 0 !important;
+	right: inherit !important;
+}
+
+.page-header-2 .page-header-breadcrumb span {
+	float: left;
+}
+
+.page-header-2 {
+	text-align: right;
+}
+
+.blog-grid-wth-sidebar {
+	text-align: right;
+}
+
+.blog-grid-wth-sidebar .blog-post-item-1 {
+	direction: rtr;
+}
+
+.page-header-3 {
+	text-align: right;
+}
+
+.page-header-3 .inner-content {
+	border-right: 6px solid white;
+	border-left: inherit;
+	padding-right: 27px;
+	padding-left: inherit;
+	text-align: right;
+}
+
+.page-header-4,
+.page-header-5 {
+	text-align: right;
+}
+
+.blog-section.blog-gridstyle {
+	text-align: right;
+	direction: rtl;
+}
+
+.blog-section .bg2-featurebox-3 {
+	text-align: right;
+	direction: rtl;
+}
+
+.brand-carousel-slider {
+	direction: ltr;
+}
+
+.blog-section .content .blog-post-item-2 {
+	text-align: right;
+	direction: ltr;
+}
+
+.blog-section .content .post-author {
+	float: right;
+}
+
+.blog-section.blog-fitblog .blog-post-item-4 {
+	direction: rtl;
+	text-align: right;
+}
+
+.blog-section.blog-fdblog .blog-post-item-7 {
+	text-align: right;
+	direction: rtl;
+}
+
+.blog-post-detail-1 {
+	text-align: right;
+}
+
+.blog-post-detail-1 .section-header .col-lg-9,
+.blog-post-detail-1 .section-header .col-lg-3 {
+	direction: ltr;
+}
+
+.blog-post-sharing .single_post_tag_title {
+	float: right;
+	margin-left: 1.5rem !important;
+	margin-right: inherit !important;
+}
+
+.comments .comments-list .comment-content {
+	text-align: right;
+}
+
+.comments .comment-item-1 .comment-reply {
+	left: 25px;
+	right: inherit;
+}
+
+.comments .section-title {
+	text-align: right;
+}
+
+.logged-in-as {
+	text-align: right;
+}
+
+.comments .button {
+	float: right
+}
+
+.comment-item-1 .comment-avatar {
+	margin-right: inherit;
+	margin-left: 40px;
+}
+
+.blog-post-detail-2 {
+	text-align: right;
+}
+
+.social-share-3-wrapper .single_post_tag_title {
+	float: right;
+}
+
+.social-3 {
+	text-align: right
+}
+
+.form-style-3 {
+	text-align: right
+}
+
+.section-header-style-4 {
+	text-align: right;
+}
+
+.comment-layout-two .logged-in-as::after {
+	left: 480px !important;
+	margin-left: inherit !important;
+}
+
+@media (min-width: 768px) {
+	.comments .comments-list .children {
+		margin-right: 100px;
+		margin-left: inherit;
+	}
+	.comment-item-2 .comment-avatar {
+		padding-right: 0;
+		padding-left: inherit;
+		margin-left: -40px;
+	}
+}
+
+.comment-item-2 .reply-button {
+	right: 8px;
+	left: inherit;
+}
+
+.form-style-3 .logged-in-as {
+	direction: ltr
+}
+
+.comment-respond {
+	direction: ltr;
+	text-align: right;
+}
+
+.comment-layout-three {
+	text-align: right;
+}
+
+.input-styled {
+	text-align: right;
+}
+
+.comment-layout-three .list-comments .children {
+	margin-left: inherit;
+	margin-right: 100px;
+}
+
+.blog-post-detail-3 {
+	text-align: right;
+}
+
+.blog-post-detail-4 {
+	text-align: right;
+}
+
+.blog-content-5 {
+	text-align: right;
+}
+
+@media (min-width: 768px) {
+	.comment-layout-five .children {
+		padding-left: inherit !important;
+		padding-right: 90px;
+	}
+}
+
+.comment-content {
+	text-align: right;
+}
+
+@media (min-width: 768px) {
+	.comment-layout-four .list-comments .children .comment-item-4 {
+		padding-left: inherit !important;
+		padding-right: 70px;
+	}
+}
+
+.blog-post-detail-6 {
+	text-align: right;
+}
+
+.blog-post-6-meta li:not(:first-child) {
+	padding-right: 21px;
+	border-right: 1px solid #888888;
+	border-left: inherit;
+}
+
+.blog-post-6-meta li:first-child {
+	padding-left: 21px;
+}
+
+.food-post-tags span.color-primary {
+	float: right;
+	margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+	.comment-layout-six .list-comments .children {
+		margin-left: inherit;
+		margin-right: 100px;
+	}
+}
+
+.comment-form .form-group,
+.comment-form p.form-submit {
+	display: inline-block;
+	width: 100%;
+}
+
+.dropdown-toggle::after {
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-top: .3em solid transparent;
+	border-left: .3em solid transparent;
+	border-bottom: .3em solid transparent;
+	border-right: .3em solid;
+	margin-right: inherit;
+}
+
+.block-icon-text .icon-header {
+	padding-left: 20px;
+	padding-right: inherit;
+}
+
+.main-slide-footer {
+	text-align: right;
+}
+
+.page-header-1 .page-header-breadcrumb {
+	left: 0;
+	right: inherit !important;
+}
+
+.remodal-wrapper .summary.entry-summary {
+	text-align: right;
+}
+
+.single-product .food-single-product-layout {
+	text-align: right;
+}
+
+@media (min-width: 1200px) {
+	.single-product .food-single-product-layout .product-detail-header-2 .product .images {
+		margin-right: 100px;
+		margin-left: inherit !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.single-product .food-single-product-layout .product-detail-header-2 .product .summary.entry-summary {
+		float: right !important;
+	}
+}
+
+.single-product .food-single-product-layout .product-date.mr-4 {
+	margin-left: 1.5rem !important;
+	margin-right: inherit !important;
+}
+
+.woocommerce-product-gallery {
+	direction: initial;
+}
+
+.fitness-single-product-layout {
+	text-align: right;
+}
+
+.product-detail-1 .product-tags i {
+	margin-left: 5px !important;
+	margin-right: inherit !important;
+}
+
+.shop-single-product-layout {
+	text-align: right;
+}
+
+@media (min-width: 1200px) {
+	.offset-xl-1 {
+		margin-right: 8.333333%;
+		margin-left: inherit;
+	}
+}
+
+.shop-single-product-layout .stars-rating {
+	float: right;
+}
+
+@media (min-width: 1140px) {
+	.single-product .shop-single-product-layout .product-detail-2 .product .summary.entry-summary {
+		padding-left: 200px;
+		padding-right: inherit;
+	}
+}
+
+.shop-single-product-layout .mr-2 {
+	margin-right: .5rem !important;
+	margin-left: inherit !important;
+}
+
+.page-header-breadcrumb span {
+	float: left;
+}
+
+.page-header-3 .page-header-breadcrumb span {
+	float: none;
+}
+
+.page-header-2 .page-header-breadcrumb {
+	right: 0;
+	left: inherit;
+}
+
+.testimonial-slider-5 {
+	direction: ltr;
+}
+
+.fitness-cta-two .fitness-cta-p {
+	margin-right: 0 !important;
+}
+
+.widget_archive li a::after {
+	content: "\f053";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 10px;
+	margin-left: 10px;
+}
+
+.widget_archive li a::before {
+	display: none;
+}
+
+.restaurant_food_gallery_two {
+	text-align: right;
+}
+
+.restaurant_food_gallery_two .item-title {
+	float: right !important;
+}
+
+.restaurant_food_gallery_two .item-price {
+	float: left !important;
+}
+
+#page-header {
+	text-align: right;
+}
+
+.sub-menu {
+	text-align: right !important;
+}
+
+.section-pricing-table .item-content {
+	direction: ltr;
+}
+
+.fitness-section-classes .class-time-wrap {
+	text-align: right
+}
+
+.fitness-section-classes span.class-time {
+	padding-right: 10px;
+	padding-left: inherit;
+	margin-top: 5px;
+}
+
+.fitness-section-classes .class-schedule {
+	text-align: center;
+}
+
+.class-time-wrap {
+	right: 50px;
+	left: inherit;
+}
+
+.fitness-single-product-layout .product-detail-1 .product-stock {
+	margin-right: 35px;
+	margin-left: inherit;
+}
+
+.page-header-3 .page-header-breadcrumb a {
+	float: right;
+}
+
+.page-header-3 .page-header-breadcrumb a {
+	padding-left: 11px !important;
+	padding-right: inherit;
+}
+
+.blog-fitblog {
+	direction: ltr;
+}
+
+.blog-fitblog .page-navi {
+	direction: rtl;
+}
+
+.blog-post-detail-3 .blog-post-header .col-md-6 {
+	direction: initial;
+}
+
+.blog-post-detail-3 .blog-post-header .col-lg-4 .social-6 {
+	float: left;
+}
+
+@media only screen and (min-width: 600px) {
+	.woocommerce-account .woocommerce-MyAccount-navigation {
+		width: 18%;
+		float: right;
+		text-align: right;
+	}
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+	text-align: right;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+	text-align: right;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.woocommerce-cart-form .shop_table thead tr th {
+	text-align: right !important;
+}
+
+.rtl.woocommerce-checkout .woocommerce .col2-set .col-1 {
+	float: right;
+}
+
+.rtl.woocommerce-checkout .woocommerce {
+	text-align: right;
+}
+
+.woocommerce-MyAccount-content .woocommerce-Address .woocommerce-Address-title h3::after,
+.woocommerce-MyAccount-content form h3::after,
+#customer_details h3::after,
+#order_review_heading::after {
+	right: 0;
+	left: inherit;
+}
+
+
+/*Todays 30.05.2019*/
+ 
+.section-category-of-food .product-item-3 {
+	text-align: right;
+}
+
+.section-category-of-food .product-item-3 .product-item-stats {
+	margin-right: 15px;
+	margin-left: inherit;
+}
+
+.r-product-tabs .filter-nav-3 li i {
+	margin-left: 11px;
+	margin-right: inherit;
+}
+
+.r-product-tabs .grid {
+	direction: ltr;
+}
+
+.restaurant-team-member-3 .pl-90 {
+	text-align: right;
+	padding-right: 60px;
+	padding-left: inherit;
+}
+
+.restaurant-team-member-3 .team-detail-3 .team-detail-header .team-stats li {
+	margin-right: inherit;
+	margin-left: 45px;
+}
+
+.testimonial-slider-2 {
+	direction: ltr;
+	text-align: right;
+}
+
+.team-detail-3 .team-detail-header .team-role::before {
+	margin-right: inherit;
+	margin-left: 15px;
+}
+
+.restaurant-blog-section {
+	text-align: right;
+}
+
+.blog-post-detail-6 .col-lg-3.text-right {
+	text-align: left !important;
+}
+
+.product-item-2 .product-price-badge {
+	direction: rtl;
+}
+
+.section-side-image {
+	direction: ltr;
+}
+
+.restaurant-team-details-sec {
+	text-align: right;
+}
+
+.team-detail-3 .team-detail-header .team-stats li {
+	margin-left: 45px;
+	margin-right: inherit;
+}
+
+.product-item-2 .mr-4 {
+	margin-right: inherit !important;
+	margin-left: 1.5rem !important;
+}
+
+.r-product-tabs .product-item-2 .mr-4 {
+	margin-right: 1.5rem !important;
+	margin-left: inherit !important;
+}
+
+.comment-item-6 .comment-content {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding-right: 36px;
+	padding-left: inherit;
+}
+
+.cart-collaterals {
+	text-align: right;
+}
+
+.cart_totals h2::after {
+	left: inherit;
+	right: 0;
+}
+
+.blog-post-detail-3 .blog-post-content ul li:before,
+.page-template-default .text-box ul li:before,
+#content .comment-text ul li::before {
+	content: "\f0d9";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	margin-right: inherit;
+	margin-left: 12px;
+}
+
+.woocommerce-MyAccount-content fieldset legend::after {
+	right: 0;
+	left: inherit;
+}
+
+.sidebar .submit-button {
+	right: inherit !important;
+	left: 0;
+	border-radius: 0px 0px 0px 0px !important;
+}
+
+.widget-menu-1 li a::after {
+	float: right;
+}
+.blog-grid-wth-sidebar .blog-post-item-1 .post-title {
+	width: 100%;
+	float: right;
+}
+.blog-grid-wth-sidebar .mr-15 {
+	margin-left: 15px !important;
+	margin-right: inherit !important;
+}
+.blog-gridstyle .blog-post-item-1 .post-title {
+	width: 100%;
+	float: right;
+}
+.blog-gridstyle .mr-15 {
+	margin-left: 15px !important;
+	margin-right: inherit !important;
+}
+.page-navi {
+	direction: rtl;
+}
+.mr-15 {
+	margin-right: inherit !important;
+	margin-left: 15px !important;
+}
+.blog-post-info span {
+	margin-left: 15px;
+	margin-right: inherit;
+}
+.contact-infomation-box-5 .box-title {
+	text-align: right;
+}
+.contact-infomation-box-5 .col-lg-7 {
+	text-align: right;
+}
+.testimonial-slider-2 .testimonial-author {
+	direction: rtl;
+}
+.testimonial-slider-2 .item .testimonial-author .testimonial-author-role {
+	padding-right: 10px;
+	border-right: 1px solid white;
+	margin-right: 10px;
+	padding-left: inherit;
+	border-left: inherit;
+	margin-left: inherit;
+}
+.blog-post-item-4.thumb-left-style .thumbnail::after{
+	transform: rotate(180deg);	
+	right: inherit !important;
+	left: -1px;
+}
+.blog-post-item-4.thumb-right-style .thumbnail::after{
+	transform: rotate(180deg);
+	left: inherit !important;
+	right: -1px;
+}
+.blog-post-item-7 .post-title{
+	text-align:right;
+}
+
+.subscription-widget-one .search-form .form-group-button {
+    left: 0;
+    right: inherit;
+}
+.subscription-widget-one .fa-angle-right::before {
+    content: "\f104";
+}
+.b-thumb-post-views{
+	direction: rtl;
+}
+.blog-post-item-4 .justify-content-between{
+	direction: initial;
+}
+
+@media (max-width: 767px){
+.restaurant-team-member-3 .pl-90 {
+    padding-right: 30px;
+}
+.r-product-tabs .product-item-2{
+	text-align:right;
+}
+}
+/*Style Selector*/
+.ronby-style-selector 
+{
+	left: 0 !important;
+	right: auto !important;
+}
+.ronby-style-selector-icon
+{
+	float: right !important;
+}
+.ronby-style-selector-content
+{
+	float: left !important;
+}
+.ronby-style-selector-content ul li label
+{	
+	float: right !important;
+}
+.ronby-style-selector-content ul li select
+{
+	float: left !important;
+}
+.ronby-style-selector-content ul.layout-chooser li
+{
+	float: right !important;
+	margin-left: auto !important;
+	margin-right: 5px !important;
+}
+.ronby-style-selector-content ul.layout-chooser li:first-child,
+.ronby-style-selector-content ul.layout-chooser li.first
+{
+	margin-right: 0 !important;
+	margin-left: auto !important;
+}
+.ronby-style-selector-content ul.layout-chooser li a
+{
+	padding-right: 5px !important;
+	padding-left: auto !important;
+}
+.ronby-style-selector-content ul.layout-chooser #overlay,
+.ronby-style-selector-content #high-contrast-switch-icon
+{
+	float: right !important;
+}
+.ronby-style-selector-content ul.layout-chooser .overlay-label
+{
+	float: right !important;
+	margin-right: 8px !important;
+	margin-left: auto !important;
+}
+#ronby_color_picker .button.wp-color-result {
+	padding: 0 30px 0 0 !important;
+}
+#ronby_color_picker .button .wp-color-result-text {
+	margin-right: 6px !important;
+	margin-left: auto !important;
+}
+#ronby_color_picker .button {
+	float: right;
+}
+#ronby_color_picker .wp-color-picker {
+    margin-left: 6px !important;
+	margin-right: auto !important;
+}
+.iris-picker .iris-square, .iris-picker .iris-slider,
+.iris-picker .iris-square-inner, .iris-picker .iris-palette{
+	float: right !important;
+}
+.iris-picker .iris-square {
+    margin-right: auto !important;
+    margin-left: 10% !important;
+}
+.iris-border .iris-palette-container {
+    right: 10px !important;
+    left: auto !important;
+}
+/*End Style Selector*/
+/* ------------------------ End  RTL------------------------ */

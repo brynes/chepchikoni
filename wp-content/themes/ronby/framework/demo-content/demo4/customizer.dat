@@ -1,0 +1,7 @@
+a:4:{s:8:"template";s:5:"ronby";s:4:"mods";a:3:{i:0;b:0;s:18:"nav_menu_locations";a:1:{s:18:"ronby_primary_menu";i:22;}s:18:"custom_css_post_id";i:291;}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:111:"
+.widget.footer-nav ul{
+	padding-left:0px; 
+}
+.widget.widget_ronby_categories_widget ul{
+	padding-left:0px; 	
+}";}

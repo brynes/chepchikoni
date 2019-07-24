@@ -1,0 +1,82 @@
+.wp-block-image.alignfull {
+  display: block;
+  text-align: center;
+}
+.wp-block-image.alignwide {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-block-image figure.alignleft {
+  display: block;
+  float: left;
+  margin-right: 2em;
+}
+.wp-block-image figure.alignright {
+  display: block;
+  float: right;
+  margin-left: 2em;
+}
+.wp-block-image figure.alignleft,
+.wp-block-image figure.alignright {
+  display: table;
+}
+.wp-block-image figure.alignleft figcaption,
+.wp-block-image figure.alignright figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+.wp-block-image figure.alignright figcaption,
+.wp-block-image figure.alignleft figcaption {
+  font-size: 75%;
+  color: gray;
+  margin-bottom: 1em;
+}
+.has-small-font-size{font-size:14px;line-height:1.42857143;}
+.has-normal-font-size,.has-regular-font-size{font-size:17px;line-height:28px;}
+.has-medium-font-size{font-size:22px;line-height:28px;}
+.has-large-font-size{font-size:30px;line-height:38px;}
+.has-huge-font-size,.has-larger-font-size{font-size:40px;line-height:46px;letter-spacing: -1px;}
+.has-primary-color{color:#F5F251;}
+.has-primary-background-color{background:#F5F251;}
+
+.postinfo-box a{
+	color: #007bff;
+}
+.postinfo-box .blog-post-info a{color:#007bff}
+p.has-drop-cap:not(:focus)::first-letter{
+    display: inline-block;
+    font-size: 52px;
+    line-height: 56px;
+    float: left;
+	text-align: left;
+    margin-right: 10px;
+    font-weight: 700;
+    color: #f63e55;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large){
+	padding: 30px;
+    background: #eff0f5;
+    font-size: 16px;
+    font-weight: 400;
+    border-left: 5px solid #f6384f;
+    position: relative;
+    margin-bottom: 25px;
+    z-index: 2;
+    border-radius: 5px;
+}
+.wp-block-cover .wp-block-cover-text a{
+	font-size:30px;line-height:38px;
+}
+figure {
+    margin-bottom: 20px !important;
+}
+.wp-block-audio figcaption,.wp-block-embed figcaption,.wp-block-image figcaption {
+    color: #555d66;
+    font-size: 16px;
+    font-weight: 500;
+}
+ul.wp-block-latest-posts li,ul.wp-block-archives-list li,
+ul.wp-block-categories-list li,ol.wp-block-latest-comments li{
+	list-style-type: none !important;
+}
